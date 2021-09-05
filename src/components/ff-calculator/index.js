@@ -14,13 +14,13 @@ const FinancialFreedomCalculator = (props) => {
 
     const formik = useFormik({
         initialValues: {
-            inititialAmount: 300000,
-            yearsOfInvestment: 5,
-            yearsOfWithdrawal: 5,
-            inflationRate: 7,
-            inflationRateWithdrawal: 7,
-            gainRate: 13,
-            withdrawalRate: 1.5,
+            inititialAmount: 0,
+            yearsOfInvestment: 0,
+            yearsOfWithdrawal: 0,
+            inflationRate: 0,
+            inflationRateWithdrawal: 0,
+            gainRate: 0,
+            withdrawalRate: 0,
             includeCurrentYearGain: false,
         },
         validate: (data) => {
