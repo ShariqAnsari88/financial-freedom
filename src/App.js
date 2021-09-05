@@ -29,8 +29,8 @@ class App extends Component {
     }
 
     updateChart = () => {
-        this.investmentChartRef.current.chartData();
-        this.withdrawalChartRef.current.chartData();
+        this.investmentChartRef.current.chartData()
+        this.withdrawalChartRef.current.chartData()
     }
 
     render() {
